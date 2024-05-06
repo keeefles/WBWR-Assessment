@@ -6,7 +6,7 @@
       </iframe>
 
       <div class="heading1">
-        <h1 class="idk">Check out our latest gear></h1>
+        <h1 class="idk">Check out our latest gear</h1>
       </div>
       <div class="h1-text">Advanced tech, superior comfort and all performance is what our latest UA gear is all about. Built to go further, push hard and break your boundaries.</div>
       <div class="button">
