@@ -2,7 +2,7 @@
 <!-- start of landing -->
   <section class="home">
     <div class="video">
-      <iframe src="https://drive.google.com/file/d/1Wb1RCZBvnkF5waj6aQ7pmnyNkDXJWHFe/preview" width="640" height="480" allow="autoplay">
+      <iframe src="https://drive.google.com/file/d/1Wb1RCZBvnkF5waj6aQ7pmnyNkDXJWHFe/preview" class="video1" allow="autoplay">
       </iframe>
 
       <div class="heading1">
@@ -13,19 +13,19 @@
         <button>Shop UA New Arrivals</button>
       </div>
     </div>
-  </section>
+  </section><br>
 <!-- end of landing -->
 <!-- start of categories -->
   <section>
     <h4>Our best gear</h4>
-      <p>Unlock yor potential with the best UA Gear.</p>
+      <p>Unlock your potential with the best UA Gear.</p>
 <!-- images inserted -->
     <ul>
       <li><img src="" alt="Train">Shop Now</li>
       <li><img src="" alt="Run">Shop Now</li>
       <li><img src="" alt="Golf">Shop Now</li>
       <li><img src="" alt="Accessories">Shop Now</li>
-    </ul>
+    </ul><br>
 <!-- end of categories -->
 <!-- start of Project Rock -->
     <div class="project rock">

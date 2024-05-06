@@ -6,3 +6,7 @@
     box-sizing: border-box;
 }
 
+.video1 {
+    width: 100vw;
+    height: 750px;
+}
