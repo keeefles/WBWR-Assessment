@@ -1,12 +1,13 @@
 <template>
     <div>
-        <video src="@/assets/videos/UA_Theme_1_DT.mp4" loop autoplay width="1920px"></video>
+        <video class="desktop" src="@/assets/videos/UA_Theme_1_DT.mp4" loop autoplay width="1920px"></video>
+        <video class="mobile" src="@/assets/videos/UA_Theme_1_MB.mp4" loop autoplay width="1920px"></video>
 
         <div class="video-text">
             <div class="heading1">
                <h1 class="idk">{{ videoText }}</h1> 
             </div>
-            <p class="p-text">{{ paragraphText }}</p><br>
+            <p class="p-text">{{ paragraphText }}</p>
       <div class="bottun">
         <button class="button">Shop UA New Arrivals</button>
       </div>
@@ -33,16 +34,15 @@
     width: 300px;
     font-size: 105px;
     color: black;
-    font-family: "Neue Plak Condensed Black", sans-serif;
+    font-family: "Neue Plak Condensed Black";
     line-height: 0.8;
 }
-
 .p-text {
     position: absolute;
     top: 77%;
     left: 69%;
     font-family: 'Neue Plak Regular';
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .button {
@@ -52,4 +52,32 @@
     font-family: 'Neue Plak Regular';
     font-size: 14px;
 }
+@media (max-width: 395px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        width: 393px;
+    }
+    .idk {
+        font-size: 48px;
+        position: static;
+        width: 250px;
+        margin: 10px;
+    }
+    .p-text {
+        position: static;
+        margin: 20px 10px;
+        width: 345px
+    }
+    .button {
+        position: static;
+        margin: 0 10px 0 10px;
+        width: 365px;
+    }
+    button {
+        margin: 40px;
+    }
+}
+
 </style>

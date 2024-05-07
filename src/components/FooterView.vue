@@ -14,4 +14,10 @@
         width: 1920px;
         height: 180px;
     }
+@media (max-width: 394px) {
+    .footerBlock {
+        width: 393px;
+        height: 80px;
+    }
+}
 </style>
