@@ -54,17 +54,17 @@
   <section>
     <div class="insta">
       <h2 class="gear-bear">What's happening on Instagram</h2>
-      <p>Don't miss out on the latest news and updates from Under Armour.</p>
+      <p class="gb-text">Don't miss out on the latest news and updates from Under Armour.</p><br>
       <div class="row">
         <div class="video">
-<!-- insert video here somehow -->
+          <video src="@/assets/videos/ig_video.mp4" height="660px" loop autoplay muted></video>
       </div>
       <div class="images">
-        <img src="https://iili.io/JrRUSHP.md.jpg" alt="dwayne wearing a project rock jacket">
-        <img src="https://iili.io/JrRgfJS.md.jpg" alt="random light skinned guy">
+        <img class="img1" src="https://iili.io/JrRUSHP.md.jpg" alt="dwayne wearing a project rock jacket">
+        <img class="img2" src="https://iili.io/JrRgfJS.md.jpg" alt="random light skinned guy">
       <div class="images">
-        <img src="https://iili.io/JrRgxWb.md.jpg" alt="girl running for the gram">
-        <img src="https://iili.io/JrRgAgV.md.jpg" alt="the rock lifting his body weight">
+        <img class="img3" src="https://iili.io/JrRgxWb.md.jpg" alt="girl running for the gram">
+        <img class="img4" src="https://iili.io/JrRgAgV.md.jpg" alt="the rock lifting his body weight">
       </div>
     </div>
     </div>

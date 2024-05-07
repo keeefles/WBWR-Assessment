@@ -130,7 +130,35 @@ p {
     margin: 0 10px;
     height: 330px;
 }
+.img1 {
+    position: absolute;
+    top: 330%;
+    left: 45%;
+}
+.img2 {
+    position: absolute;
+    top: 330%;
+    left: 65%;
+}
+.img3 {
+    position: absolute;
+    top: 376%;
+    left: 45%;
+}
+.img4 {
+    position: absolute;
+    top: 376%;
+    left: 65%;
+}
+.gb-text {
+    height: 690px;
+}
 .images img {
     width: 300px;
     margin: 0 5px 5px 5px;
+}
+.video {
+    position: absolute;
+    top: 330%;
+    left: 10%;
 }
