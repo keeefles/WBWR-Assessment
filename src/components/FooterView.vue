@@ -1,7 +1,5 @@
 <template>
-    <div class="footerBlock">
-        <p>this is the footer, this text is also not supposed to show at all.</p>
-    </div>
+    <div class="footerBlock"></div>
 </template>
 
 <script>
@@ -13,8 +11,7 @@
 <style scoped>
     .footerBlock {
         background-color: rgb(235, 235, 235);
-        width: 100vw;
-        height: 200px;
-
+        width: 1920px;
+        height: 180px;
     }
 </style>

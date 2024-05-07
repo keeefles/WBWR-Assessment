@@ -1,7 +1,5 @@
 <template>
-    <div class="headerBlock">
-        <p>This is the header text. It is not supposed to show but the block shall be visible.</p>
-    </div>
+    <div class="headerBlock"></div>
 </template>
 
 <script>
@@ -12,8 +10,8 @@
 
 <style scoped>
 .headerBlock {
-    background-color: rgb(235, 235, 235);
-    width: 100vw;
-    height: 80px;
+    background-color: rgb(246, 246, 246);
+    width: 1920px;
+    height: 70px;
 }
 </style>

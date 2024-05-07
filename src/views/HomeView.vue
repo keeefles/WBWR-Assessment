@@ -1,21 +1,4 @@
 <template>
-<!-- start of landing -->
-  <section class="home">
-    <div class="video">
-      <iframe src="https://drive.google.com/file/d/1Wb1RCZBvnkF5waj6aQ7pmnyNkDXJWHFe/preview" class="video1" height="500" allow="autoplay">
-      </iframe>
-
-
-      <div class="heading1">
-        <h1 class="idk">CHECK OUT OUR LATEST GEAR</h1>
-      </div>
-      <div class="h1-text">Advanced tech, superior comfort and all performance is what our latest UA gear is all about. Built to go further, push hard and break your boundaries.</div><br>
-      <div class="bottun">
-        <button class="button">Shop UA New Arrivals</button>
-      </div>
-    </div>
-  </section><br>
-<!-- end of landing -->
 <!-- start of categories -->
   <section>
     <h2 class="gear-bear">Our best gear</h2>
@@ -42,11 +25,11 @@
   <section>
     <div class="project-rockInfo">
       <div class="project-rock">
-        <img src="https://iili.io/JrRgM1R.md.jpg" height="500" alt="Project Rock img">
+        <img src='@\assets\photos\UA_Theme_2_DT.jpg' height="540" alt="Project Rock img">
       </div>
       <div>
-        <p>Project Rock</p><br/>
-        <h2 class="bold-text">Every side of strong</h2><br>
+        <h2 class="pr-name">Project Rock</h2><br/>
+        <h2 class="bold-text">EVERY SIDE OF STRONG</h2><br>
         <p class="pr-text">The Underground collection is inspired by the idea of a Project Rock fight club. A place where we push each other harder to make each toher stronger. A drop dedicated to you and your crew. The neon colourways are a reflection of the energy we bring to every rep, every set and every challenge.</p><br>
         <button class="btn">Shop Project Rock</button>
       </div>

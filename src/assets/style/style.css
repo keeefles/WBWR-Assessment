@@ -8,28 +8,32 @@
     margin: 0;
     box-sizing: border-box;
 }
-.video1 {
-    width: 100vw;
-    height: 500;
+@font-face {
+    font-family: 'Neue Plak Bold';
+    src: url('@/assets/fonts/Neue-Plak-Bold.ttf');
 }
-.video {
-    margin-bottom: 60px;
+@font-face {
+    font-family: 'Neue Plak Condensed Black';
+    src: url('@/assets/fonts/Neue-Plak-CondBlack.ttf');
 }
-.idk {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 800;
-    font-size: 80px;
-    color: black;
+@font-face {
+    font-family: 'Neue Plak Regular';
+    src: url('@/assets/fonts/Neue-Plak-Regular.otf');
 }
+@font-face {
+    font-family: 'Neue Plak Semi Bold';
+    src: url('@/assets/fonts/Neue-Plak-SemiBold.otf');
+}
+
 .heading1 {
     text-align: left;
     width: 250px;
 }
-.h1-text {
+.p-text {
     text-align: left;
     width: 310px;
     font-size: 14px;
-    font-family: "Rubik", sans-serif;
+    font-family: "Neue Plak Regular", sans-serif;
 }
 .button {
     background-color: black;
@@ -39,7 +43,7 @@
     border: none;
     font-size: 14px;
     color: white;
-    font-family: "Rubik", sans-serif;
+    font-family: "Neue Plak Regular", sans-serif;
     transition: 0.3s ease;
     display: block;
 }
@@ -53,14 +57,55 @@
     font-size: 24px;
     font-weight: 800;
     margin-left: 65px;
-    font-family: "Rubik", sans-serif;
+    font-family: "Neue Plak Bold", sans-serif;
     color: black;
 }
 .gear-bear, p{
     margin-left: 65px;
 }
+.pr-name {
+    font-family: 'Neue Plak Bold';
+    font-size: 16px;
+    position: absolute;
+    top: 186%;
+    left: 68%;
+    color: white;
+}
+.bold-text {
+    font-size: 64px;
+    font-family: 'Neue Plak Condensed Black';
+    text-align: left;
+    width: 250px;
+    color: white;
+    position: absolute;
+    top: 193%;
+    left: 68%;
+    line-height: 0.8;
+}
+.pr-text {
+    position: absolute;
+    top: 213%;
+    left: 64%;
+    width: 340px;
+    color: white;
+    font-family: 'Neue Plak Regular';
+}
+.btn {
+    position: absolute;
+    top: 233%;
+    left: 68%;
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: 2px white solid;
+    color: white;
+    font-family: 'Neue Plak Regular';
+    font-size: 16px;
+}
 p {
     text-align: left;
+    font-size: 14px;
+    font-family: 'Neue Plak Regular';
 }
 .gear-images{
     display: flex;
@@ -70,17 +115,20 @@ p {
 .gb-img {
     width: 300px;
     text-align: left;
-    font-family: "Rubik", sans-serif;
+    font-family: "Neue Plak Semi Bold", sans-serif;
+    font-size: 14px;
     text-decoration: underline;
     font-weight: 600;
 }
 .promo-img {
     margin: 20px 0 60px 0;
     display: flex;
+    height: 320px;
     justify-content: center;
 }
 #promo {
-    margin: 0 22px;
+    margin: 0 10px;
+    height: 330px;
 }
 .images img {
     width: 300px;
