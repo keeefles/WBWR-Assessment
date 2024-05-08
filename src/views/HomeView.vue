@@ -1,21 +1,21 @@
 <template>
 <!-- start of categories -->
-  <section>
+  <section class="sec1">
     <h2 class="gear-bear">Our best gear</h2>
-      <p>Unlock your potential with the best UA Gear.</p>
+      <p class="gb-unlock">Unlock your potential with the best UA Gear.</p>
 <!-- images inserted -->
   <div class="gear-images">
     <div class="gb-img">
-      <img src="https://iili.io/JrRvbRe.md.jpg" class="gb-img" alt="Train">Shop Now
+      <img src="https://iili.io/JrRvbRe.md.jpg" class="gb-img" alt="Train"><div class="disappearo">Shop Now</div>
     </div>
     <div class="gb-img">
-      <img src="https://iili.io/JrR8AgI.md.jpg" class="gb-img" alt="Run">Shop Now
+      <img src="https://iili.io/JrR8AgI.md.jpg" class="gb-img" alt="Run"><div class="disappearo">Shop Now</div>
     </div>
     <div class="gb-img">
-      <img src="https://iili.io/JrR8BOg.md.jpg" class="gb-img" alt="Golf">Shop Now
+      <img src="https://iili.io/JrR8BOg.md.jpg" class="gb-img" alt="Golf"><div class="disappearo">Shop Now</div>
     </div>
     <div class="gb-img">
-      <img src="https://iili.io/JrR80Xf.md.jpg" class="gb-img" alt="Accessories">Shop Now
+      <img src="https://iili.io/JrR80Xf.md.jpg" class="gb-img" alt="Accessories"><div class="disappearo">Shop Now</div>
     </div>
   </div>
   <br>
@@ -25,7 +25,8 @@
   <section>
     <div class="project-rockInfo">
       <div class="project-rock">
-        <img src='@\assets\photos\UA_Theme_2_DT.jpg' height="540" alt="Project Rock img">
+        <img src='@\assets\photos\UA_Theme_2_DT.jpg' height="540px" class="desktop" alt="Project Rock img">
+        <img src='@\assets\photos\UA_Theme_2_MB.jpg' width="393px" class="mobile" alt="Project Rock img">
       </div>
       <div>
         <h2 class="pr-name">Project Rock</h2><br/>
@@ -57,7 +58,7 @@
       <p class="gb-text">Don't miss out on the latest news and updates from Under Armour.</p><br>
       <div class="row">
         <div class="video">
-          <video src="@/assets/videos/ig_video.mp4" height="660px" loop autoplay muted></video>
+          <video src="@/assets/videos/ig_video.mp4" class="vio" loop autoplay muted></video>
       </div>
       <div class="images">
         <img class="img1" src="https://iili.io/JrRUSHP.md.jpg" alt="dwayne wearing a project rock jacket">

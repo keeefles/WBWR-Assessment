@@ -1,4 +1,5 @@
 <template>
+    <section>
     <div>
         <video class="desktop" src="@/assets/videos/UA_Theme_1_DT.mp4" loop autoplay width="1920px"></video>
         <video class="mobile" src="@/assets/videos/UA_Theme_1_MB.mp4" loop autoplay width="1920px"></video>
@@ -13,6 +14,7 @@
       </div>
         </div>
     </div>
+    </section>
 </template>
 
 <script>
@@ -79,5 +81,4 @@
         margin: 40px;
     }
 }
-
 </style>

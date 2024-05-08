@@ -163,8 +163,86 @@ p {
     top: 330%;
     left: 10%;
 }
+.vio {
+    height: 660px;
+}
 @media (max-width: 394px) {
     .gear-bear {
         margin: 10px;
+    }
+    section {
+        margin-bottom: 40px;
+    }
+    .sec1 {
+        margin: 0;
+    }
+    .gb-unlock {
+        margin: 0 0 0 10px;
+    }
+    .disappearo {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+    .pr-name {
+        position: static;
+        color: black;
+        margin: 10px 0 0 10px;
+        text-align: left;
+    }
+    .bold-text {
+        position: static;
+        color: black;
+        margin: 0 0 0 10px;
+        font-size: 48px;
+    }
+    .pr-text {
+        position: static;
+        color: black;
+        margin: 0 0 0 10px;
+        width: 343px;
+        font-size: 14px;
+    }
+    .btn {
+        position: static;
+        color: white;
+        background-color: black;
+        width: 370px;
+        font-size: 14px;
+    }
+    p {
+        margin: 0 0 0 10px;
+    }
+    .video {
+        position: absolute;
+        top: 378%;
+        left: 2%;
+    }
+    .vio {
+        width: 376px;
+    }
+    .images img {
+        width: 185px;
+        margin: auto;
+    }
+    .img1, .img2 {
+        position: absolute;
+        top: 466%;
+    }
+    .img3, .img4 {
+        position: absolute;
+        top: 498%;
+    }
+    .img1, .img3 {
+        left: 2%;
+    }
+    .img2, .img4 {
+        left: 51%;
+    }
+}
+@media (min-width: 1000px) {
+    .mobile {
+        display: none;
     }
 }
