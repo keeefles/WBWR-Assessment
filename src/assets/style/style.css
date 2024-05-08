@@ -167,6 +167,15 @@ video {
 .ua-theme {
     margin-left: 75px;
 }
+body {
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* start of media queries */
 @media (max-width: 394px) {
     .gear-bear {
         margin: 10px;
@@ -321,11 +330,4 @@ video {
         margin-left: 115px;
         height: 650px;
     }
-}
-body {
-    overflow-y: scroll;
-}
-
-body::-webkit-scrollbar {
-    display: none;
 }
