@@ -269,20 +269,20 @@ video {
         width: 390px;
     }
     .pr-name {
-        top: 136%;
+        top: 140%;
         left: 70%;
     }
     .bold-text {
-        top: 142%;
+        top: 145%;
         left: 70%;
     }
     .pr-text {
-        top: 154%;
+        top: 156%;
         left: 70%;
         margin: 0;
     }
     .buttons {
-        top: 168%;
+        top: 172%;
         left: 70%;
         width: 250px;
     }
@@ -314,10 +314,8 @@ video {
     .img2, .img4 {
         left: 72%;
     }
-    .desktop {
-        height: 650px;
-    }
     .ua-theme {
-        margin-left: 165px;
+        margin-left: 115px;
+        height: 650px;
     }
 }
