@@ -270,20 +270,20 @@ video {
     }
     .pr-name {
         top: 136%;
-        left: 68%;
+        left: 70%;
     }
     .bold-text {
         top: 142%;
-        left: 68%;
+        left: 70%;
     }
     .pr-text {
         top: 154%;
-        left: 68%;
+        left: 70%;
         margin: 0;
     }
     .buttons {
         top: 168%;
-        left: 68%;
+        left: 70%;
         width: 250px;
     }
     #promo {
@@ -292,6 +292,7 @@ video {
     }
     .video {
         top: 240%;
+        left: 3%;
     }
     .vio {
         width: 800px;
@@ -315,5 +316,8 @@ video {
     }
     .desktop {
         height: 650px;
+    }
+    .ua-theme {
+        margin-left: 165px;
     }
 }

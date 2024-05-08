@@ -54,7 +54,7 @@
         <img
           src="@\assets\photos\UA_Theme_2_DT.jpg"
           height="540px"
-          class="desktop"
+          class="desktop ua-theme"
           alt="Project Rock img"
         />
         <img
