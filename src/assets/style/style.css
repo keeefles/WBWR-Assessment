@@ -66,7 +66,7 @@
     font-family: 'Neue Plak Bold';
     font-size: 16px;
     position: absolute;
-    top: 186%;
+    top: 190%;
     left: 68%;
     color: white;
 }
@@ -77,21 +77,21 @@
     width: 250px;
     color: white;
     position: absolute;
-    top: 193%;
+    top: 198%;
     left: 68%;
     line-height: 0.8;
 }
 .pr-text {
     position: absolute;
-    top: 213%;
+    top: 216%;
     left: 64%;
     width: 340px;
     color: white;
     font-family: 'Neue Plak Regular';
 }
-.btn {
+.buttons {
     position: absolute;
-    top: 233%;
+    top: 237%;
     left: 68%;
     width: 200px;
     height: 50px;
@@ -132,7 +132,7 @@ p {
 }
 .img1, .img2 {
     position: absolute;
-    top: 330%;
+    top: 338%;
 }
 .img2, .img4 {
     position: absolute;
@@ -144,7 +144,7 @@ p {
 }
 .img3, .img4 {
     position: absolute;
-    top: 386%;
+    top: 394%;
 }
 .gb-text {
     height: 685px;
@@ -155,11 +155,14 @@ p {
 }
 .video {
     position: absolute;
-    top: 330%;
+    top: 338%;
     left: -25%;
 }
 .vio {
     width: 630px;
+}
+video {
+    margin-bottom: 40px;
 }
 @media (max-width: 394px) {
     .gear-bear {
@@ -216,7 +219,7 @@ p {
     }
     .video {
         position: absolute;
-        top: 420%;
+        top: 426%;
         left: -1%;
     }
     .vio {
@@ -228,10 +231,10 @@ p {
         margin: auto;
     }
     .img1, .img2 {
-        top: 493%;
+        top: 499%;
     }
     .img3, .img4 {
-        top: 525%;
+        top: 531%;
     }
     .img1, .img3 {
         left: 2%;
