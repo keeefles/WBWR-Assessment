@@ -22,4 +22,9 @@
         margin-top: 233px; 
     }
 }
+@media (min-width: 1919px) {
+    .footerBlock {
+        margin-top: 340px;
+    }
+}
 </style>

@@ -81,4 +81,20 @@
         margin: 40px;
     }
 }
+@media (min-width: 1919px) {
+    .idk {
+        top: 13%;
+        left: 58%;
+    }
+    .p-text {
+        position: absolute;
+        top: 48%;
+        left: 55%;
+    }
+    .button {
+        top: 58%;
+        left: 58.2%;
+        margin: 0;
+    }
+}
 </style>
