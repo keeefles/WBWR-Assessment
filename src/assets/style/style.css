@@ -131,44 +131,42 @@ p {
     margin: 0 10px;
     height: 330px;
 }
-.img1 {
+.img1, .img2 {
     position: absolute;
     top: 330%;
-    left: 45%;
 }
-.img2 {
+.img2, .img4 {
     position: absolute;
-    top: 330%;
-    left: 65%;
+    left: 72%;
 }
-.img3 {
+.img1, .img3 {
     position: absolute;
-    top: 376%;
-    left: 45%;
+    left: 47%;
 }
-.img4 {
+.img3, .img4 {
     position: absolute;
-    top: 376%;
-    left: 65%;
+    top: 386%;
 }
 .gb-text {
     height: 685px;
 }
 .images img {
-    width: 300px;
+    height: 383px;
     margin: 0 5px 5px 5px;
 }
 .video {
     position: absolute;
     top: 330%;
-    left: 10%;
+    left: 5%;
 }
 .vio {
-    height: 660px;
+    width: 630px;
 }
 @media (max-width: 394px) {
     .gear-bear {
         margin: 10px;
+
+        font-size: 22px;
     }
     section {
         margin-bottom: 40px;
@@ -210,13 +208,14 @@ p {
         background-color: black;
         width: 370px;
         font-size: 14px;
+        border: none;
     }
     p {
         margin: 0 0 0 10px;
     }
     .video {
         position: absolute;
-        top: 378%;
+        top: 391%;
         left: 2%;
     }
     .vio {
@@ -224,14 +223,13 @@ p {
     }
     .images img {
         width: 185px;
+        height: auto;
         margin: auto;
     }
     .img1, .img2 {
-        position: absolute;
         top: 466%;
     }
     .img3, .img4 {
-        position: absolute;
         top: 498%;
     }
     .img1, .img3 {

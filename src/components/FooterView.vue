@@ -13,7 +13,7 @@
         background-color: rgb(235, 235, 235);
         width: 1920px;
         height: 170px;
-        margin-top: 15px;
+        margin-top: 145px;
     }
 @media (max-width: 394px) {
     .footerBlock {
