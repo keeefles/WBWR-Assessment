@@ -19,6 +19,7 @@
     .footerBlock {
         width: 393px;
         height: 80px;
+        margin-top: 252px; 
     }
 }
 </style>
