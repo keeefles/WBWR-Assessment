@@ -32,7 +32,7 @@
     text-align: left;
     width: 310px;
     font-size: 14px;
-    font-family: "Neue Plak Regular", sans-serif;
+    font-family: "Neue Plak Regular";
 }
 .button {
     background-color: black;
@@ -42,7 +42,7 @@
     border: none;
     font-size: 14px;
     color: white;
-    font-family: "Neue Plak Regular", sans-serif;
+    font-family: "Neue Plak Regular";
     transition: 0.3s ease;
     display: block;
 }
@@ -56,7 +56,7 @@
     font-size: 24px;
     font-weight: 800;
     margin-left: 65px;
-    font-family: "Neue Plak Bold", sans-serif;
+    font-family: "Neue Plak Bold";
     color: black;
 }
 .gear-bear, p{
@@ -114,7 +114,7 @@ p {
 .gb-img {
     width: 300px;
     text-align: left;
-    font-family: "Neue Plak Semi Bold", sans-serif;
+    font-family: "Neue Plak Semi Bold";
     font-size: 14px;
     text-decoration: underline;
     font-weight: 600;
