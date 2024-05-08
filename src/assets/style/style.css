@@ -132,7 +132,7 @@ p {
 }
 .img1, .img2 {
     position: absolute;
-    top: 338%;
+    top: 330%;
 }
 .img2, .img4 {
     position: absolute;
@@ -144,7 +144,7 @@ p {
 }
 .img3, .img4 {
     position: absolute;
-    top: 394%;
+    top: 384.5%;
 }
 .gb-text {
     height: 685px;
@@ -155,14 +155,17 @@ p {
 }
 .video {
     position: absolute;
-    top: 338%;
-    left: -25%;
+    top: 330%;
+    left: 3%;
 }
 .vio {
     width: 630px;
 }
 video {
     margin-bottom: 40px;
+}
+.ua-theme {
+    margin-left: 75px;
 }
 @media (max-width: 394px) {
     .gear-bear {
@@ -291,7 +294,7 @@ video {
         height: auto;
     }
     .video {
-        top: 240%;
+        top: 245%;
         left: 3%;
     }
     .vio {
@@ -303,10 +306,10 @@ video {
         margin: auto;
     }
     .img1, .img2 {
-        top: 240%;
+        top: 245%;
     }
     .img3, .img4 {
-        top: 287%;
+        top: 292%;
     }
     .img1, .img3 {
         left: 47%;
@@ -318,4 +321,11 @@ video {
         margin-left: 115px;
         height: 650px;
     }
+}
+body {
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
