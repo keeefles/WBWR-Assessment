@@ -10,7 +10,7 @@
 
 <style scoped>
 .headerBlock {
-    background-color: rgb(246, 246, 246);
+    background-color: #d9d9d9;
     width: 1920px;
     height: 70px;
 }
