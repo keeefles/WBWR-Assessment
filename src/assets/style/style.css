@@ -179,7 +179,7 @@ body::-webkit-scrollbar {
 @media (max-width: 394px) {
     .gear-bear {
         margin: 10px;
-
+        margin-top: -10px;
         font-size: 22px;
     }
     section {
@@ -220,6 +220,7 @@ body::-webkit-scrollbar {
         position: static;
         color: white;
         background-color: black;
+        margin-left: 10px;
         width: 370px;
         height: 50px;
         font-size: 14px;
@@ -231,7 +232,7 @@ body::-webkit-scrollbar {
     }
     .video {
         position: absolute;
-        top: 255%;
+        top: 250%;
         left: -1%;
         padding: 0;
     }
@@ -247,10 +248,10 @@ body::-webkit-scrollbar {
         margin: auto;
     }
     .img1, .img2 {
-        top: 299%;
+        top: 294%;
     }
     .img3, .img4 {
-        top: 318.2%;
+        top: 313.2%;
     }
     .img1, .img3 {
         left: 2%;
