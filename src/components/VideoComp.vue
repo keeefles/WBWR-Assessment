@@ -1,8 +1,8 @@
 <template>
     <section>
     <div>
-        <video class="desktop" src="@/assets/videos/UA_Theme_1_DT.mp4" loop autoplay width="1920px"></video>
-        <video class="mobile" src="@/assets/videos/UA_Theme_1_MB.mp4" loop autoplay width="1920px"></video>
+        <video class="desktop" src="@/assets/videos/UA_Theme_1_DT.mp4" loop autoplay width="100%"></video>
+        <video class="mobile" src="@/assets/videos/UA_Theme_1_MB.mp4" loop autoplay width="100%"></video>
 
         <div class="video-text">
             <div class="heading1">
@@ -31,8 +31,8 @@
 <style scoped>
 .idk {
     position: absolute;
-    top: 25%;
-    left: 73%;
+    top: 13%;
+    left: 58%;
     width: 300px;
     font-size: 105px;
     color: black;
@@ -41,16 +41,16 @@
 }
 .p-text {
     position: absolute;
-    top: 77%;
-    left: 69%;
+    top: 63%;
+    left: 58%;
+    margin: 0;
     font-family: 'Neue Plak Regular';
     font-size: 14px;
 }
-
 .button {
     position: absolute;
-    top: 90%;
-    left: 73%;
+    top: 75%;
+    left: 58%;
     font-family: 'Neue Plak Regular';
     font-size: 14px;
 }
@@ -89,11 +89,11 @@
     .p-text {
         position: absolute;
         top: 48%;
-        left: 55%;
+        left: 58%;
     }
     .button {
         top: 58%;
-        left: 58.2%;
+        left: 58%;
         margin: 0;
     }
 }

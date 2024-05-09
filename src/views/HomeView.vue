@@ -139,7 +139,7 @@
       </p>
       <br />
       <div class="row">
-        <div class="video">
+        <div class="video" id="video">
           <video
             src="@/assets/videos/ig_video.mp4"
             class="vio"

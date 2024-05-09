@@ -11,7 +11,7 @@
 <style scoped>
 .headerBlock {
     background-color: #d9d9d9;
-    width: 1920px;
+    width: 100%;
     height: 70px;
 }
 @media (max-width: 394px) {

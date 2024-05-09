@@ -66,7 +66,7 @@
     font-family: 'Neue Plak Bold';
     font-size: 16px;
     position: absolute;
-    top: 190%;
+    top: 170%;
     left: 68%;
     color: white;
 }
@@ -77,13 +77,13 @@
     width: 250px;
     color: white;
     position: absolute;
-    top: 198%;
+    top: 178%;
     left: 68%;
     line-height: 0.8;
 }
 .pr-text {
     position: absolute;
-    top: 216%;
+    top: 196%;
     left: 64%;
     width: 340px;
     color: white;
@@ -91,7 +91,7 @@
 }
 .buttons {
     position: absolute;
-    top: 237%;
+    top: 217%;
     left: 68%;
     width: 200px;
     height: 50px;
@@ -132,7 +132,7 @@ p {
 }
 .img1, .img2 {
     position: absolute;
-    top: 330%;
+    top: 310%;
 }
 .img2, .img4 {
     position: absolute;
@@ -144,7 +144,7 @@ p {
 }
 .img3, .img4 {
     position: absolute;
-    top: 384.5%;
+    top: 364.5%;
 }
 .gb-text {
     height: 685px;
@@ -155,7 +155,7 @@ p {
 }
 .video {
     position: absolute;
-    top: 330%;
+    top: 310%;
     left: 3%;
 }
 .vio {
@@ -233,6 +233,7 @@ body::-webkit-scrollbar {
         position: absolute;
         top: 255%;
         left: -1%;
+        padding: 0;
     }
     video {
         margin-bottom: 0;
@@ -299,15 +300,22 @@ body::-webkit-scrollbar {
         width: 250px;
     }
     #promo {
-        width: 390px;
+        width: 425px;
         height: auto;
     }
+    #promo:first-child {
+        margin-left: -26px;
+    }
     .video {
-        top: 245%;
+        top: 250%;
         left: 3%;
+    }
+    #video {
+        max-width: 90%;
     }
     .vio {
         width: 800px;
+        padding: 0;
     }
     .images img {
         width: 450px;
@@ -315,10 +323,10 @@ body::-webkit-scrollbar {
         margin: auto;
     }
     .img1, .img2 {
-        top: 245%;
+        top: 250%;
     }
     .img3, .img4 {
-        top: 292%;
+        top: 297.5%;
     }
     .img1, .img3 {
         left: 47%;
@@ -327,7 +335,7 @@ body::-webkit-scrollbar {
         left: 72%;
     }
     .ua-theme {
-        margin-left: 115px;
-        height: 650px;
+        /* margin-left: 115px; */
+        height: 683px;
     }
 }

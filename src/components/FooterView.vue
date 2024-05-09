@@ -11,7 +11,7 @@
 <style scoped>
     .footerBlock {
         background-color: rgb(218, 218, 218);
-        width: 1920px;
+        width: 100%;
         height: 170px;
         margin-top: 110px;
     }
