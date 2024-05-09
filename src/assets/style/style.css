@@ -232,7 +232,7 @@ body::-webkit-scrollbar {
     }
     .video {
         position: absolute;
-        top: 250%;
+        top: 251%;
         left: -1%;
         padding: 0;
     }
@@ -248,10 +248,10 @@ body::-webkit-scrollbar {
         margin: auto;
     }
     .img1, .img2 {
-        top: 294%;
+        top: 295%;
     }
     .img3, .img4 {
-        top: 313.2%;
+        top: 314.2%;
     }
     .img1, .img3 {
         left: 2%;
