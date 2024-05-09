@@ -280,63 +280,92 @@ body::-webkit-scrollbar {
 }
 @media (min-width: 1919px) {
     .gb-img {
-        width: 390px;
+        width: 375px;
     }
     .pr-name {
-        top: 140%;
-        left: 70%;
+        top: 15%;
+        left: 85%;
     }
     .bold-text {
-        top: 145%;
-        left: 70%;
+        top: 25%;
+        left: 85%;
     }
     .pr-text {
-        top: 156%;
-        left: 70%;
+        top: 45%;
+        left: 85%;
         margin: 0;
     }
     .buttons {
-        top: 172%;
-        left: 70%;
+        top: 70%;
+        left: 85%;
         width: 250px;
     }
     #promo {
-        width: 425px;
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
         height: auto;
     }
-    #promo:first-child {
-        margin-left: -26px;
-    }
     .video {
-        top: 250%;
-        left: 3%;
+        position: absolute;
+        top: 12%;
+        left: -1%;
     }
     #video {
         max-width: 90%;
     }
     .vio {
-        width: 800px;
-        padding: 0;
+        width: 700px;
     }
     .images img {
-        width: 450px;
+        width: 395px;
         height: auto;
         margin: auto;
     }
     .img1, .img2 {
-        top: 250%;
+        top: 12%;
     }
     .img3, .img4 {
-        top: 297.5%;
+        top: 70.4%;
     }
     .img1, .img3 {
         left: 47%;
     }
     .img2, .img4 {
-        left: 72%;
+        left: 74%;
     }
     .ua-theme {
-        /* margin-left: 115px; */
-        height: 683px;
+        margin-left: 210px;
+        width: 1500px;
+    }
+    .sec1 {
+        width: 1500px;
+        margin: auto;
+    }
+    .sec2 {
+        width: 1500px;
+    }
+    .sec3 {
+        width: 1500px;
+        margin: auto;
+    }
+    .project-rockInfo {
+        position: relative;
+        margin: auto;
+    }
+    .gear-bear {
+        margin-left: 0;
+    }
+    .gb-text {
+        margin-left: 0;
+    }
+    .gb-unlock {
+        margin-left: 0;
+    }
+    p {
+        margin: 0;
+    }
+    .insta {
+        position: relative;
     }
 }

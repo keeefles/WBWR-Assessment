@@ -1,6 +1,6 @@
 <template>
     <section>
-    <div>
+    <div class="block">
         <video class="desktop" src="@/assets/videos/UA_Theme_1_DT.mp4" loop autoplay width="100%"></video>
         <video class="mobile" src="@/assets/videos/UA_Theme_1_MB.mp4" loop autoplay width="100%"></video>
 
@@ -88,13 +88,17 @@
     }
     .p-text {
         position: absolute;
-        top: 48%;
+        top: 63%;
         left: 58%;
     }
     .button {
-        top: 58%;
+        top: 78%;
         left: 58%;
         margin: 0;
+    }
+    .block {
+        position: relative;
+        /* display: flex; */
     }
 }
 </style>

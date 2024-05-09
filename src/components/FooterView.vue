@@ -18,13 +18,13 @@
 @media (max-width: 394px) {
     .footerBlock {
         width: 393px;
-        height: 90px;
-        margin-top: 233px; 
+        height: 150px;
+        margin-top: 219px; 
     }
 }
 @media (min-width: 1919px) {
     .footerBlock {
-        margin-top: 340px;
+        margin-top: 205px;
     }
 }
 </style>

@@ -48,12 +48,12 @@
   </section>
   <!-- end of categories -->
   <!-- start of Project Rock -->
-  <section>
+  <section class="sec2">
     <div class="project-rockInfo">
       <div class="project-rock">
         <img
           src="@\assets\photos\UA_Theme_2_DT.jpg"
-          height="540px"
+          width="1500px"
           class="desktop ua-theme"
           alt="Project Rock img"
         />
@@ -83,7 +83,7 @@
   </section>
   <!-- end of project rock -->
   <!-- start of promotions -->
-  <section>
+  <section class="sec3">
     <div class="promo">
       <h2 class="gear-bear">Discover out lastest promotions</h2>
       <p>Get the best deals on our best gear.</p>
@@ -131,7 +131,7 @@
   </section>
   <!-- end of promo -->
   <!-- start of insta -->
-  <section>
+  <section class="sec3">
     <div class="insta">
       <h2 class="gear-bear">What's happening on Instagram</h2>
       <p class="gb-text">
