@@ -20,7 +20,7 @@
     </div>
   </div>
 </div>
-      <!-- end of carousel  -->
+    <!-- end of carousel -->
     <!-- images inserted -->
     <div class="gear-images">
       <div class="gb-img">
