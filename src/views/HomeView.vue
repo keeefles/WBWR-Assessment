@@ -131,7 +131,7 @@
   </section>
   <!-- end of promo -->
   <!-- start of insta -->
-  <section class="sec3">
+  <section class="sec3" >
     <div class="insta">
       <h2 class="gear-bear">What's happening on Instagram</h2>
       <p class="gb-text">
