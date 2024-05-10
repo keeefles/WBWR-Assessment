@@ -23,6 +23,7 @@
     <!-- end of carousel -->
     <!-- images inserted -->
     <div class="gear-images">
+      <div>test</div>
       <div class="gb-img">
         <img src="https://iili.io/JrRvbRe.md.jpg" class="gb-img" alt="Train" />
         <div class="disappearo">Shop Now</div>
