@@ -166,6 +166,7 @@ video {
 }
 .ua-theme {
     margin-left: 75px;
+    width: 1375px;
 }
 body {
     overflow-y: scroll;
